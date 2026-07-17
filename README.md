@@ -10,7 +10,7 @@ This project implements Linear Regression and Ridge (L2-regularized) Regression 
 ![Regression comparison animation](regression_comparison.gif)
 *The gray plane represents the analytical result (theoretical optimum), and the pink plane represents the gradient descent evolution.*
 
-This was meant to be an exploration into linear regression. I compared an objective function paired with gradient descent to the analytical methods that are relatively unique to linear regression. I also compared standard regression with ridge regression. The specific output meant to be predicted from the data was the fuel consumption of cars given their engine features (horsepower, displacement, etc.).
+This was meant to be an exploration into linear regression. I compared an objective function paired with gradient descent to the analytical methods that are relatively unique to linear regression. I also compared standard regression with ridge regression. The output meant to be predicted was the fuel consumption of cars given their engine features (horsepower, displacement, etc.).
 
 I felt like using different testing methods so I tested the algorithms in 2 ways: 80/20 training/testing split, and k-fold cross validation. Below are the results:
 
