@@ -40,7 +40,8 @@ As you can see ridge regression had a lower mean square error than normal regres
 
 As I have circled in the above image, there is a cluster of points at the top of the graph that seem to be slight outliers. As you can see, the standard regression plane tilts more to accommodate these points than the ridge regression plane. Having a regularizer term there to make the model more suspicious of emerging patterns had a tangible effect on the model. This serves as a nice visual example for the value of a regularizer term.
 
-As an aside, I improved on previous repos by structuring this project across multiple modular code files. I also used the Catppuccin color scheme to make my plots and visual assets look more modern and professional.
+As an aside, I improved on previous repos by structuring this project across multiple modular code files. I also used the Catppuccin color scheme to make my plots look nicer.
+
 ---
 
 ## Theory & Mathematical Background
